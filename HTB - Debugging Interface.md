@@ -41,14 +41,12 @@ We notice the value `32.02 µs`, which is in microseconds so we simply divide it
 Alright so now we have the bite rate per second
 
 Now we can enter it in the `Async Serial` settings as such:
-![Entering the calculated bit rate]
-(https://github.com/zyruva/CTF_Walkthroughs/blob/main/images/Screenshot%20from%202021-07-06%2023-24-05.png?raw=true)
+![Entering the calculated bit rate](images/Screenshot%20from%202021-07-06%2023-24-05.png?raw=true)
 
 And we click save.
 
 Now the data will be decoded using our new bit rate and we can see the data in a better format if we open the `Terminal`:
 
-![Opening the Terminal]
-(https://github.com/zyruva/CTF_Walkthroughs/blob/main/images/Screenshot%20at%202021-07-06%2023-24-52.png?raw=true)
+![Opening the Terminal](images/Screenshot%20at%202021-07-06%2023-24-52.png?raw=true)
 
 **We scroll down and we can see the flag!**
