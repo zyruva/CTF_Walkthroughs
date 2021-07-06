@@ -16,7 +16,7 @@ digital-0.bin
 meta.json
 ```
 
-Lets open `digital-0.bin` in a hexdump: `hexdump -C digital-0.bin`, and we notice the header of the file:
+Lets open `digital-0.bin` in hexdump: `hexdump -C digital-0.bin`, and we notice the header of the file:
 
 ```
 00000000  3c 53 41 4c 45 41 45 3e  01 00 00 00 64 00 00 00  |<SALEAE>....d...|
