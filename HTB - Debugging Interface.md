@@ -27,6 +27,7 @@ Looks like this file can be opened with the famous Logic Analyzer SALEAE.
 We can downlaod a free copy, install it, open it, and then open the file `debugging_interface_signal.sal`.
 
 We open the Analyzer tab in the top right bar:
+
 ![Opening the Analyzer tools](images/Screenshot%20at%202021-07-06%2023-47-57.png)
 
 We notice that we have only one channel (`Channel 0`), so its most likely that the debugging interface used was UART so we will select `Async Serial` from the top right:
