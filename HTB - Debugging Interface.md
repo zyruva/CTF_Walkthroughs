@@ -41,6 +41,7 @@ We notice the value `32.02 µs`, which is in microseconds so we simply divide it
 Alright so now we have the bite rate per second
 
 Now we can enter it in the `Async Serial` settings as such:
+
 ![Entering the calculated bit rate](images/Screenshot%20from%202021-07-06%2023-24-05.png?raw=true)
 
 And we click save.
