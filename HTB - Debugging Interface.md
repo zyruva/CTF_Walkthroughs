@@ -35,7 +35,7 @@ Now we need to select a proper `Bit rate`, so we will have to calculate it.
 To calculate the bit rate, we zoom on the beginning of the data (Channel 0), hover the cursor on top of the first block of data:
 
 ![Calculating the bit rate]
-(https://raw.githubusercontent.com/zyruva/CTF_Walkthroughs/main/images/Screenshot%20at%202021-07-06%2023-08-46.png)
+(images/Screenshot%20at%202021-07-06%2023-08-46.png)
 
 We notice the value `32.02 µs`, which is in microseconds so we simply divide it by 1000000 to get the transfer rate by seconds, so 1000000 / 32.02 = 31230
 
