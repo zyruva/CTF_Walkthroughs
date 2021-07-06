@@ -26,9 +26,16 @@ Looks like this file can be opened with the famous Logic Analyzer SALEAE.
 
 We can downlaod a free copy, install it, open it, and then open the file `debugging_interface_signal.sal`.
 
-We open the Analyzer tab in the top right bar.
+We open the Analyzer tab in the top right bar:
+![Opening the Analyzer tools](images/Screenshot%20at%202021-07-06%2023-47-57.png)
 
-We notice that we have only one channel (`Channel 0`), so its most likely that the debugging interface used was UART so we will select `Async Serial` from the top right, once clicked, a dialog will show up, and we can select `Channel 0` from the `Input Channel`.
+We notice that we have only one channel (`Channel 0`), so its most likely that the debugging interface used was UART so we will select `Async Serial` from the top right:
+
+![Selecting Async Serial for data decoding](images/Screenshot%20at%202021-07-06%2023-48-27.png)
+
+once clicked, a dialog will show up, and we can select `Channel 0` from the `Input Channel`:
+
+![Setting Channel 0 as the input channel](images/Screenshot%20at%202021-07-06%2023-49-02.png)
 
 Now we need to select a proper `Bit rate`, so we will have to calculate it.
 
